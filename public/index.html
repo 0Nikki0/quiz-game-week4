@@ -7,16 +7,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="quiz-container">
-    <div id="question-container">
-      <p id="question-text"></p>
-      <div id="options-container"></div>
+  <!-- Quiz Body -->
+  <div class="quiz-container">
+    <!-- Quiz Game Heading -->
+    <h1 class="quiz-heading">Quiz Game</h1>
+    <!-- Timer -->
+    <div class="timer">Time Left: <span id="time">30</span>s</div>
+    <!-- Question Area -->
+    <div class="question-area">
+        <p id="question">Question?</p>
     </div>
-    <div id="score-container">
-      <p>Score: <span id="score">0</span></p>
+    <!-- Options Area -->
+    <div class="options-area">
+        
     </div>
-    <button id="next-button" onclick="loadNextQuestion()">Next</button>
+    <!-- Next Button -->
+    <div class="next-button">
+      <button>NEXT</button>
+    </div>
   </div>
+
+
   <script src="script.js"></script>
 </body>
 </html>
